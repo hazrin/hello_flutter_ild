@@ -25,7 +25,7 @@ class MyHomePage extends StatelessWidget {
                 trailing: const Icon(Icons.arrow_right),
                 onTap: (){},
               ),
-              ListTile(
+              const ListTile(
                 title: Text('Form 2'),
               )
 

@@ -18,7 +18,7 @@ class _FormPageState extends State<FormPage> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: TextFormField(
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: 'Nama Staf',
                 border: OutlineInputBorder()
                ),
@@ -27,7 +27,7 @@ class _FormPageState extends State<FormPage> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: TextFormField(
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: 'Jawatan Staf',
                 border: OutlineInputBorder()
                ),
